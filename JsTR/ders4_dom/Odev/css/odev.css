@@ -1,0 +1,37 @@
+.darkmode {
+
+    background-color: black;
+    position: relative;
+}
+
+h1,
+p{
+    color: white;
+}
+
+.switcher {
+
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: black;
+}
+
+.switcher-2 {
+
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: none;
+    background-color: black;
+    color: white;
+}

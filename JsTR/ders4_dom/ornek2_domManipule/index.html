@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="/JsTR/ders4_dom/ornek2_domManipule/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/JsTR/ders4_dom/ornek2_domManipule/css/style.css"
+    />
+    <title>Dom Ornek</title>
+  </head>
+  <body>
+    <main>
+      <!-- ana icerik -->
+
+      <div class="container text-center">
+        <h1>Ornekler</h1>
+        <img
+          class="resim"
+          src="/JsTR/ders4_dom/ornek2_domManipule/img/img2.jpg"
+          alt=""
+        />
+
+        <div class="mt-4">
+          <audio
+            class="ses"
+            src="/JsTR/ders4_dom/ornek2_domManipule/img/retro-ringtone .mp3"
+            style="width: 0px"
+            controls=""
+          ></audio>
+          <button class="btn on btn-outline-warning">Ara</button>
+          <button class="btn off btn-outline-primary">Baglat</button>
+          <button class="btn speak btn-outline-danger">Konus</button>
+        </div>
+
+        <div class="input-div mt-5">
+          <label for="textbox"></label>
+          <input class="textbox" type="text" id="textbox" value="" />
+          <label for="checkbox">kucuk/buyuk</label>
+          <input class="checkbox" type="checkbox" />
+        </div>
+
+        <ul class="liste text-start">
+          <!-- yazilari icinde bulundugu container'a gore sola aliyor -->
+          <li>Javascript</li>
+          <li>Java</li>
+          <li>Phyton</li>
+          <li>SQL</li>
+          <li>C++</li>
+        </ul>
+
+        <div class="text-start mt-5">
+          <input class="dil me-1" type="text" />
+          <button class="btn-ekle btn-success">Ekle</button>
+          <button class="btn-sil btn-danger">Sil</button>
+        </div>
+      </div>
+    </main>
+
+    <script class="ses" src="app.js"></script>
+  </body>
+</html>
